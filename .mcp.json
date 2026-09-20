@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mcp-image": {
+      "command": "npx",
+      "args": ["-y", "mcp-image"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "IMAGE_PROVIDER": "gemini",
+        "IMAGE_OUTPUT_DIR": "D:/workspace/chartage-studio/anime-manga/assets/_staging",
+        "IMAGE_QUALITY": "quality",
+        "SKIP_PROMPT_ENHANCEMENT": "true"
+      }
+    }
+  }
+}
