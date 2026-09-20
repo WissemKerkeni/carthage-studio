@@ -29,10 +29,30 @@ generated, what it cost and why it passed or failed. Approved assets are committ
 
 | Asset ID | Subject | File | Ver | Date | Derived from | Status |
 |---|---|---|---|---|---|---|
-| **STY-01** | Master style anchor — the rope walk, one-point perspective, hard noon light | `visual/references/STY-01-rope-walk-v001.jpg` | v001 | 2026-09-20 | staging `A1-v002` composition + `v005` temple edit | **approved** |
-| **STY-02** | Face standard — plain adult male, three-quarter, restrained | `visual/references/STY-02-face-standard-v001.jpg` | v001 | 2026-09-20 | staging `B1-v003-plain` | **approved** |
+| **STY-01** | Master style anchor — the rope walk, one-point perspective | `visual/references/STY-01-rope-walk-v002.jpg` | **v002** | 2026-09-20 | v001, edited: rendered sky + finer line | **approved** |
+| STY-01 | — earlier register, blank sky | `visual/references/STY-01-rope-walk-v001.jpg` | v001 | 2026-09-20 | `A1-v002` + `v005` temple edit | **superseded** |
+| **STY-02** | Face standard — plain adult male, three-quarter, restrained | `visual/references/STY-02-face-standard-v002.jpg` | **v002** | 2026-09-20 | staging `B1-v003-plain` re-run in the lighter register | **approved** |
+| STY-02 | — earlier register, heavier tone | `visual/references/STY-02-face-standard-v001.jpg` | v001 | 2026-09-20 | staging `B1-v003-plain` | **superseded** |
+| **STY-03** | Architecture standard — Tyre from the sea | `visual/references/STY-03-architecture-v001.jpg` | v001 | 2026-09-20 | first pass, edited to replace Roman honorific columns with plain pillars | **approved** |
+| STY-04 | Crowd standard | — | — | 2026-09-20 | — | **rejected** |
+| **STY-05** | **Weight standard** — rendered sky as subject, tiny figure, sombre | `visual/references/STY-05-weight-v001.jpg` | v001 | 2026-09-20 | first pass | **approved** |
 
-**STY-01 and STY-02 are now attached as style references to every subsequent generation.**
+**The register was revised partway toward a lighter page** after the author supplied two reference
+pages: finer line, more white paper in lit areas, and **rendered skies**. STY-05 was added because
+nothing in the bible anchored *weight* — every previous anchor was hard noon sun.
+
+**STY-01, 02, 03 and 05 are attached as style references to every subsequent generation.**
+
+## APPROVED — character references
+
+| Asset ID | Subject | File | Ver | Date | Status |
+|---|---|---|---|---|---|
+| CHR-12-hands | Elishat's hands — rope callus, tar-black nail beds | `assets/characters/CHR-12-elishat-hands-v001.jpg` | v001 | 2026-09-20 | **approved** |
+
+Generated at short prompt length, then **edited** for child proportions. Anatomy correct, callus
+ridges rendered, tar nails correct. **Residual:** scale still reads slightly adult in isolation;
+accepted because panels will carry her body in frame to establish scale. The rest of CHR-12's sheet
+set is still to be produced.
 
 ### STY-01 — provenance
 
@@ -64,13 +84,11 @@ rather than writing "not handsome".
 | E1-v001 | Hands | Two interlocking hands, anatomically unreadable; adult, not a child's |
 | E1-v002 | Hand | **Anatomy correct, tar nails excellent, crisp screentone.** Still an adult hand; callus not rendered. Best hand so far — the base for the retry |
 | E1-v003 | Hand | **Regression: six digits, and grey wash instead of screentone.** Over-specification traded rendering discipline for detail |
+| E1-v004 | Hand | Correct anatomy, callus and tar nails all achieved at once, crisp screentone. Still adult in proportion — **the base for the v005 edit** |
+| STY-04-v001 | Crowd | **Collapsed into children's-book illustration** — round faces, large eyes, smiling children. Lightening instruction given without plainness anchors. Crowd depth handling was correct and is reusable |
 
 ---
 
-## Character, location and panel assets
+## Location and panel assets
 
 None generated yet.
-
-| Asset ID | Type | Subject | File | Ver | Date | Status |
-|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |

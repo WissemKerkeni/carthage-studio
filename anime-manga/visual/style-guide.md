@@ -25,7 +25,7 @@ The three words the art department checks a page against: **weight, heat, restra
 |---|---|---|
 | Line quality | **Brush-inked, with natural taper and varying thickness within a single stroke.** Confident and economical. Ruled for architecture and ships, freehand brush for flesh, rope, cloth and rock | `CANON` — STY-01/02 |
 | Line weight range | Three broad registers — heavy contour, medium interior, fine texture — achieved by brush pressure rather than by three fixed pen nibs | `CANON` — STY-01/02 |
-| Contour vs interior ratio | Roughly 2:1. Figures hold their edge against busy backgrounds | `PROPOSED` |
+| Contour vs interior ratio | **Contour heavier than interior, but not dominating it.** Closer to 1.5:1 than 2:1 — the line is fine and confident rather than bold | `CANON` v002 |
 | Hatching used for | **Texture only, and sparingly** — rope fibre, sailcloth weave, beard, cloth folds. Hatching does **not** carry the shading; screentone does (§6). Never for emotional emphasis | `CANON` — STY-01/02 |
 | Background line weight | One step lighter than foreground, always. Depth is carried by line weight before it is carried by tone | `PROPOSED` |
 
@@ -73,6 +73,8 @@ The three words the art department checks a page against: **weight, heat, restra
 | Method | **Screentone carries almost all the shading**, with visible halftone dot texture — never smooth grey gradients. Solid black for weight; hatching only for texture, sparingly | `CANON` — STY-01/02 |
 | Black fills (*beta*) | **Heavy and generous.** Hair is solid black; so are dark cloth, doorways, ship holds, deep shadow and night. **Heat is drawn as blown-out white; cold and fear are drawn as black** | `CANON` — STY-01/02 |
 | Tone density | Three tones only — 10%, 30%, 60%. A fourth is a decision, not a habit | `PROPOSED` |
+| **Skies are rendered** | **Never blank paper.** Every exterior sky carries screentone — textured cloud and haze, lighter toward the horizon. In weight beats the sky becomes the subject of the panel and fills most of the frame (STY-05) | `CANON` v002 |
+| Value key | Variable, and chosen per scene. Ordinary daylight runs high-key with generous white paper; weight, grief and bad weather run dark and tone-dominant. **The series is not uniformly heavy, and not uniformly light** | `CANON` v002 |
 | Default key light | Hard, high, from the left unless the location file says otherwise. Mediterranean noon is the series default and it is unkind | `PROPOSED` |
 | Skin | Held at paper white in sunlight, with hatched shadow only. Tone on skin means indoors, night, or illness | `PROPOSED` |
 
@@ -148,10 +150,24 @@ Approved images live in `visual/references/`. **None generated yet.**
 
 | Ref | Purpose | File | Approved |
 |---|---|---|---|
-| **STY-01** | Master style reference: the rope walk in hard noon light | `references/STY-01-rope-walk-v001.jpg` | **yes, 2026-09-20** |
-| **STY-02** | Face standard: plain adult male, three-quarter, restrained | `references/STY-02-face-standard-v001.jpg` | **yes, 2026-09-20** |
-| STY-03 | Architecture standard: Phoenician harbour, ruled perspective | — | no |
-| STY-04 | Crowd standard: individuals in front, silhouette behind | — | no |
+| **STY-01** | Master style reference: the rope walk in hard noon light | `references/STY-01-rope-walk-v002.jpg` | **yes, v002** |
+| **STY-02** | Face standard: plain adult male, three-quarter, restrained | `references/STY-02-face-standard-v002.jpg` | **yes, v002** |
+| **STY-03** | Architecture standard: Tyre from the sea, ruled perspective | `references/STY-03-architecture-v001.jpg` | **yes, v001** |
+| STY-04 | Crowd standard: individuals in front, silhouette behind | — | **rejected v001** — see below |
+| **STY-05** | **Weight standard:** rendered sky as subject, tiny figure, sombre | `references/STY-05-weight-v001.jpg` | **yes, v001** |
+
+> **`RETCON`, register revision.** STY-01 v001 and STY-02 v001 were approved in a heavier,
+> higher-contrast register with blank white skies. The author then chose to move **partway** toward
+> a lighter page: finer line, more white paper in lit areas, **and rendered skies**. v002 of each
+> supersedes v001. The v001 files are retained, not deleted.
+>
+> **STY-05 is new.** Nothing in the bible previously anchored *weight* — every anchor was hard noon
+> sun. A series containing a pyre, a winter that kills three, Cannae and the burning of Carthage
+> needs a sombre standard, and this is it.
+>
+> **STY-04 was rejected.** Instructed toward a lighter, softer register without plainness anchors,
+> it collapsed into children's-book illustration — round faces, large eyes, smiling children. Its
+> crowd *depth* handling was correct and is reusable. See the prompting rule below.
 
 **Generation order:** STY-01 is produced and approved before any character reference sheet, because
 every later generation carries it as a style reference.

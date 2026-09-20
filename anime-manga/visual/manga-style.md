@@ -72,6 +72,16 @@ after three full regenerations each lost something the previous one had.
 **Consequence:** a panel that is 90% right is never thrown away. It is edited. This is also what
 makes "regenerate only the failing panels" achievable at all.
 
+### 5. "Lighter" and "softer" are not the same instruction.
+
+Asked for a lighter, higher-key page, a **face** held its register — because the prompt carried hard
+plainness anchors (*broad flattened nose, heavy brow, deep creases, receding hairline*). A **crowd**
+given the same lightening instruction, but no plainness anchors, collapsed into children's-book
+illustration: round faces, large eyes, smiling children.
+
+**Consequence:** the light page treatment is safe and is now canon. The words *softer* and *rounder*
+are banned from prompts. **Every prompt containing people carries at least one plainness anchor.**
+
 ### 4. The camera drifts. State it explicitly.
 
 Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
@@ -86,20 +96,24 @@ Standing text appended to every manga panel prompt. Composed once the style is a
 it is the mechanism that keeps 200 chapters looking like one series.
 
 ```
-Japanese seinen manga artwork, black and white. Brush-inked linework with natural
-taper and varying thickness. Shading done almost entirely with adhesive screentone
-at three densities with visible halftone dot texture; hatching used sparingly.
-Heavy solid black fills for hair, dark cloth and deep shadow. Simplified manga
-facial construction: the nose suggested with a short line and a small shadow, the
-mouth a simple line, eyes almond-shaped and restrained with a single small
-highlight. Strong figure-to-ground separation, background in finer lighter line.
-Architecture in ruled straight lines and strict perspective. Realistic adult
-proportions, roughly seven and a half heads tall, unheroic. Hard high sunlight,
-blown-out white highlights, very little midtone. Ancient Near Eastern Phoenician
-setting, 9th century BC. No panel border, no frame. No colour.
+Japanese seinen manga artwork, black and white. Fine brush-inked linework with
+natural taper; the contour heavier than the interior line but not dominating it.
+Shading done almost entirely with adhesive screentone at three densities with
+visible halftone dot texture; hatching used sparingly. The sky is rendered in
+screentone — textured cloud and haze, lighter toward the horizon — never left as
+blank paper. Solid black fills for hair, dark cloth, doorways and deep shadow,
+with generous clean white paper in the lit areas. Simplified manga facial
+construction: the nose suggested with a short line and a small shadow, the mouth
+a simple line, eyes almond-shaped and restrained with a single small highlight.
+Plain, unglamorous, weathered faces. Strong figure-to-ground separation,
+background in finer lighter line. Architecture in ruled straight lines and strict
+perspective. Realistic adult proportions, roughly seven and a half heads tall,
+unheroic. Ancient Near Eastern Phoenician setting, 9th century BC. No panel
+border, no frame. No colour.
 ```
 
-**Status:** `CANON` as of 2026-09-20. This exact block produced the approved STY-01 and STY-02.
+**Status:** `CANON`, register revision 2026-09-20. Revised from the block that produced STY-01/02
+v001: finer line, rendered skies, and an explicit plainness anchor.
 It is attached to every generation, together with the approved anchor images as style references.
 
 Model and settings are recorded in `assets/ASSET-LOG.md`. **Re-verify supported parameters before
