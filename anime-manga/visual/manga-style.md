@@ -34,18 +34,73 @@ print and black-and-white specifics.
 - [ ] The beat of the page lands on the largest panel
 - [ ] Page reads at 60% reduction (phone screen test)
 
+## Prompting rules — learned in Phase 0, 2026-09-20
+
+These are not style opinions. They are observed behaviour of `gemini-3-pro-image`, and every
+character, location and panel prompt in this project follows them.
+
+### 1. Describe what is there. Never list what is not.
+
+**Negative prompts barely work.** `"No Greek or Roman columns"` was in a prompt verbatim and the
+model returned fluted columns and a triangular pediment. It only changed when the building was
+described positively — flat roof, blank windowless walls, recessed doorway, two freestanding pillars.
+
+The same applied to faces: `"he is not handsome"` produced a handsome man. `"A broad flattened
+nose, a heavy asymmetric brow, one eye set slightly lower than the other, deep creases at the
+mouth"` produced the approved STY-02.
+
+**Consequence for this project:** every `do-not-drift` list must be rewritten into positive
+description before it enters a prompt. The list stays as it is for QC; the prompt gets the
+affirmative form.
+
+### 2. Keep prompts short, or the style slips.
+
+Lengthening a prompt to nail one detail caused the model to trade away rendering discipline.
+The over-specified hand attempt returned **six digits and a smooth grey wash instead of
+screentone** — failing the two most basic criteria — while the shorter prompt had produced correct
+anatomy and crisp halftone.
+
+**Consequence:** state the subject plainly, attach the style block, and **fix remaining detail by
+editing rather than by adding sentences.**
+
+### 3. Edit; do not regenerate.
+
+`inputImagePath` edits preserve composition, tone and line style while changing one named element.
+This is how STY-01 was finished: the best composition was kept and only the temple was replaced,
+after three full regenerations each lost something the previous one had.
+
+**Consequence:** a panel that is 90% right is never thrown away. It is edited. This is also what
+makes "regenerate only the failing panels" achievable at all.
+
+### 4. The camera drifts. State it explicitly.
+
+Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
+three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must
+be stated as instructions, and even then are verified on every establishing shot.
+
+---
+
 ## Generation-time constraints
 
 Standing text appended to every manga panel prompt. Composed once the style is approved;
 it is the mechanism that keeps 200 chapters looking like one series.
 
 ```
-black and white manga panel, screentone shading at three densities only,
-three line weights, hard high-left key light, ruled architectural perspective,
-realistic 7.5-head anatomy, restrained facial expression, detailed hands,
-heavy solid blacks, no colour, no chibi, no speed lines, no sparkle,
-no abstract background, no modern objects
+Japanese seinen manga artwork, black and white. Brush-inked linework with natural
+taper and varying thickness. Shading done almost entirely with adhesive screentone
+at three densities with visible halftone dot texture; hatching used sparingly.
+Heavy solid black fills for hair, dark cloth and deep shadow. Simplified manga
+facial construction: the nose suggested with a short line and a small shadow, the
+mouth a simple line, eyes almond-shaped and restrained with a single small
+highlight. Strong figure-to-ground separation, background in finer lighter line.
+Architecture in ruled straight lines and strict perspective. Realistic adult
+proportions, roughly seven and a half heads tall, unheroic. Hard high sunlight,
+blown-out white highlights, very little midtone. Ancient Near Eastern Phoenician
+setting, 9th century BC. No panel border, no frame. No colour.
 ```
 
-**Status:** `PROPOSED` — not final until STY-01 is approved and the phrasing is tested against the
-actual generator, whose supported parameters must be verified at that time rather than assumed.
+**Status:** `CANON` as of 2026-09-20. This exact block produced the approved STY-01 and STY-02.
+It is attached to every generation, together with the approved anchor images as style references.
+
+Model and settings are recorded in `assets/ASSET-LOG.md`. **Re-verify supported parameters before
+any future model change rather than assuming them.**

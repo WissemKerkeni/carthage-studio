@@ -2,3 +2,7 @@
 *.iml
 Thumbs.db
 .DS_Store
+
+# staging images are scratch; the ASSET-LOG is the record
+anime-manga/assets/_staging/*
+!anime-manga/assets/_staging/README.md

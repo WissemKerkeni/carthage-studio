@@ -23,11 +23,17 @@ The three words the art department checks a page against: **weight, heat, restra
 
 | Decision | Value | Status |
 |---|---|---|
-| Line weight range | Three weights only: contour 1.2pt, interior 0.6pt, texture 0.3pt. No tapering flourish | `PROPOSED` |
-| Contour vs interior ratio | 2:1. Figures hold their edge against busy backgrounds | `PROPOSED` |
-| Line quality | Clean and slightly nervous — ruled for architecture and ships, freehand for flesh, rope, cloth and rock. The wobble is deliberate and stays | `PROPOSED` |
-| Hatching used for | Shadow on stone, sun damage on skin, rope fibre, sailcloth weave, water. **Never** for emotional emphasis | `PROPOSED` |
+| Line quality | **Brush-inked, with natural taper and varying thickness within a single stroke.** Confident and economical. Ruled for architecture and ships, freehand brush for flesh, rope, cloth and rock | `CANON` — STY-01/02 |
+| Line weight range | Three broad registers — heavy contour, medium interior, fine texture — achieved by brush pressure rather than by three fixed pen nibs | `CANON` — STY-01/02 |
+| Contour vs interior ratio | Roughly 2:1. Figures hold their edge against busy backgrounds | `PROPOSED` |
+| Hatching used for | **Texture only, and sparingly** — rope fibre, sailcloth weave, beard, cloth folds. Hatching does **not** carry the shading; screentone does (§6). Never for emotional emphasis | `CANON` — STY-01/02 |
 | Background line weight | One step lighter than foreground, always. Depth is carried by line weight before it is carried by tone | `PROPOSED` |
+
+> **`RETCON`, 2026-09-20.** This section previously specified *"three weights only: contour 1.2pt,
+> interior 0.6pt, texture 0.3pt, no tapering flourish"* with hatching used for shadow. That is a
+> technical-pen, European-graphic-novel specification, and it is what the first Phase 0 generations
+> produced. The author chose a **Japanese seinen manga idiom** instead. Replaced above; the old
+> values are recorded here and are no longer in force.
 
 ## 3. Anatomy & proportion
 
@@ -64,9 +70,9 @@ The three words the art department checks a page against: **weight, heat, restra
 
 | Decision | Value | Status |
 |---|---|---|
-| Method | Screentone plus solid black plus hatching. Tone is the base, black is for weight, hatching is for texture | `PROPOSED` |
+| Method | **Screentone carries almost all the shading**, with visible halftone dot texture — never smooth grey gradients. Solid black for weight; hatching only for texture, sparingly | `CANON` — STY-01/02 |
+| Black fills (*beta*) | **Heavy and generous.** Hair is solid black; so are dark cloth, doorways, ship holds, deep shadow and night. **Heat is drawn as blown-out white; cold and fear are drawn as black** | `CANON` — STY-01/02 |
 | Tone density | Three tones only — 10%, 30%, 60%. A fourth is a decision, not a habit | `PROPOSED` |
-| Black fill | Generous. Interiors, ship holds, night, and the space under everything. **Heat is drawn as blown-out white; cold and fear are drawn as black** | `PROPOSED` |
 | Default key light | Hard, high, from the left unless the location file says otherwise. Mediterranean noon is the series default and it is unkind | `PROPOSED` |
 | Skin | Held at paper white in sunlight, with hatched shadow only. Tone on skin means indoors, night, or illness | `PROPOSED` |
 
@@ -142,8 +148,8 @@ Approved images live in `visual/references/`. **None generated yet.**
 
 | Ref | Purpose | File | Approved |
 |---|---|---|---|
-| STY-01 | Master style reference: a rope walk in hard noon light, three tones, heavy black | — | no |
-| STY-02 | Face standard: adult male, three-quarter view, restrained expression | — | no |
+| **STY-01** | Master style reference: the rope walk in hard noon light | `references/STY-01-rope-walk-v001.jpg` | **yes, 2026-09-20** |
+| **STY-02** | Face standard: plain adult male, three-quarter, restrained | `references/STY-02-face-standard-v001.jpg` | **yes, 2026-09-20** |
 | STY-03 | Architecture standard: Phoenician harbour, ruled perspective | — | no |
 | STY-04 | Crowd standard: individuals in front, silhouette behind | — | no |
 
