@@ -39,3 +39,19 @@ only one arc lives inside its parent location file.
 ## Production order
 
 Locations are built in chapter order, not index order. For Chapter 1, only `LOC-01` is required.
+
+## Arc 1 additions, `PROPOSED`
+
+Three new locations are required for chapters 4–10 and were not in the `world.md` index.
+
+| ID | Name | Role in story | File | Refs |
+|---|---|---|---|---|
+| LOC-16 | **The ships** — eight hulls, deck, rail, bilge, hold | ch. 4–7. All of ch. 4 happens on one deck | pending | no |
+| LOC-17 | **Cyprus** — anchorage, shore, shrine above the beach | ch. 5–6 | pending | no |
+| LOC-18 | **The bay, the lagoon and the hill** (pre-Carthage) | ch. 7–10. **Becomes LOC-02/03.** Three seasonal variants | pending | no |
+
+**LOC-18 is the most important unbuilt asset in the project.** It is empty ground in ch. 7 and the
+greatest city in the western Mediterranean for six Books afterwards, and it burns in ch. 195–200.
+Its establishing angles must be fixed **now, while there is nothing on it**, so that every later
+establishing shot of Carthage is the same camera position with six centuries of construction added.
+See `manga/chapter-07/chapter.md`.

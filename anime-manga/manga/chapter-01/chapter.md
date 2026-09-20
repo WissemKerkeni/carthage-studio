@@ -7,8 +7,8 @@ Book One · Arc 1 · marked ★ (must exist in any cut of the series).
 
 ## Role in the story
 
-This is the first chapter of a 212-chapter series whose protagonist does not appear for another
-158 chapters. It has one job, and it is not "hook the reader with action".
+This is the first chapter of a 200-chapter series whose protagonist is not seen for another
+114 chapters. It has one job, and it is not "hook the reader with action".
 
 **It must make the audience trust that the series knows what it is doing.** It does that by being
 completely specific about a trade, a smell, and a family — and by ending on a question that has
@@ -57,7 +57,7 @@ The final page is wordless. Nothing has happened, and the reader knows something
 |---|---|---|---|---|
 | CHR-06 | **Sosylos** | Voice only, plus one wordless appearance — hands, desk, scroll; **face never shown** | yes (voice) | Partial sheet needed: hands + desk only |
 | CHR-12 | **Elishat**, 14 | POV. The audience's eyes | yes | **Full sheet required** |
-| CHR-34 | **Abdeshmun**, her father | Speaks 2 lines | yes | **Full sheet required** |
+| CHR-34 | **Yatonbaal**, her father | Speaks 2 lines | yes | **Full sheet required** |
 | CHR-33 | **Zakarbaal** | Speaks 2 lines. Drives the chapter | yes | **Full sheet required** |
 | — | Rope-walk workers (4–6) | Background, non-speaking | yes | Crowd standard only |
 | — | Harbour crowd, Assyrian tribute officers | Background, non-speaking | yes | Crowd standard only |
@@ -120,16 +120,25 @@ priest) + 4 (the rope).
 A 32-page cut exists: compress the Tyre establishing sequence from 8 pages to 4, and the work
 sequence from 12 to 8. It is worse, and it is available if the serialisation demands it.
 
+> **Against the restructure's budget.** `arcs.md` now sets **Books One–Two at an average of 24
+> pages** per chapter. 42 is well above that. This is deliberate and, I think, correct: a series
+> opener is the one chapter that buys the audience's patience for the following 199, and across
+> Book One's 22 chapters a single 42-page opener moves the average by less than one page. **But it
+> is an exception to a budget the author has just set, so it is flagged rather than assumed.**
+> If the 24-page average is hard, take the 32-page cut; below 32 the chapter stops working, because
+> pp. 30–33 (the silence) and the pp. 13–21 process sequence are the two things it is made of.
+
 ## Open decisions for the author
 
 These block nothing yet, but they block the script lock.
 
-1. **CHR-34's name.** Elishat's father is unnamed in the source. Proposal *Abdeshmun*; the stronger
-   alternative is *Yatonbaal*, using Phoenician papponymy so the Knot-keepers alternate two names
-   for six centuries and the audience meets a "Yatonbaal" again at Zama. See `CHR-34`.
-2. **Sosylos' wordless appearance.** `story-bible.md` §14.4 proposes voice-over only with a single
-   wordless appearance in ch. 1 that pays off in ch. 184. This chapter assumes **yes**, shot as hands
-   and desk with the face never in frame. Confirm.
+1. ~~**CHR-34's name.**~~ **`CANON`, approved 2026-09-20** — he is **Yatonbaal**. The house is
+   named for the man who ties the first knot, and the name recurs down the line by Phoenician
+   papponymy. See `CHR-34`. *(Still open, not blocking: the second name in the alternation, needed
+   only when ch. 22 is written.)*
+2. ~~**Sosylos' wordless appearance.**~~ **`RESOLVED`** — `story-bible.md` §14.4: voice-over only
+   until ch. 124, with the single wordless appearance in ch. 1. This chapter is built that way:
+   hands and desk, face never in frame. No further decision needed.
 3. **Does the reader see the Assyrian tribute officers?** They make Tyre's fear concrete in one
    panel, but they are politics, and the source says no politics in ch. 1. Current draft: present as
    background only, never named, never explained.

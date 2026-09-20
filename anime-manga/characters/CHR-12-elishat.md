@@ -8,9 +8,9 @@
 - **Status:** `PROPOSED`
 
 > **Function.** She is the first Knot-keeper the audience meets, and the series' whole six-hundred-year
-> structure rests on her: the knotted cord begins in her hands in ch. 9 and ends on Sosylos' table in
-> ch. 184. She is invented `[F]`, carries no plot power, and changes no historical outcome. She
-> witnesses, splices, and survives.
+> structure rests on her: her father ties the first knot in the cord, she becomes its keeper, and it
+> ends on Sosylos' table in ch. 184. She is invented `[F]`, carries no plot power, and changes no
+> historical outcome. She witnesses, splices, and survives.
 
 ## Canonical description
 
@@ -53,13 +53,13 @@ the series' longest-running figure is a person history would not record.
 |---|---|---|
 | Rope walk | ch. 1–3 | Undyed linen shift to mid-calf, belted with cord; a second cord round the waist for paying out yarn; bare feet, tar-black soles |
 | Voyage | ch. 4–7 | The same, salt-stiffened, a man's cloak over it |
-| Africa | ch. 8–20 | Undyed wool, head cloth from ch. 15, the first knotted cord worn at the belt from ch. 9 |
+| Africa | ch. 8–20 | Undyed wool, head cloth from ch. 15. **The cord is not worn** in Book One — it hangs on a wall (see Props) |
 
 ## Props
 
 | Item | Description | Status |
 |---|---|---|
-| **The knotted cord** | From ch. 9. Ship's rope, one knot per generation. She ties the first. Carried at the belt; by ch. 22 it has two knots | `[F]` |
+| **The knotted cord** | A length of ship's cable. One knot per generation. **Her father ties the first and hangs it on a wall** (`CHR-34`); she becomes its keeper, not its author. By ch. 22 it has two knots, the second tied by her son | `[F]` |
 | Splicing fid | Bone, worn smooth, hung at the belt. Present in every chapter | `PROPOSED` |
 | Waist cord | The working cord she pays yarn from. Chapter 1 only | `PROPOSED` |
 
@@ -86,9 +86,9 @@ the series' longest-running figure is a person history would not record.
 
 Begins as a child splicing rope in the safest rich city in the world. Is aboard the escape because
 somebody has to splice the rigging — the series' whole method in one line. Watches a hundred and
-forty people become a single thing, ties the first knot of a record that will outlast everyone in
-it, and ends Book One as a grey woman at the back of a crowd listening to a priest tell children a
-version of her own life that is better than what happened, saying nothing.
+forty people become a single thing, watches her father tie the first knot of a record that will
+outlast everyone in it, and ends Book One as a grey woman at the back of a crowd listening to a
+priest tell children a version of her own life that is better than what happened, saying nothing.
 
 ## Do-not-drift list
 

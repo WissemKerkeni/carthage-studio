@@ -62,7 +62,7 @@ empty. No character is favoured by framing. The camera is a visitor.
 
 ## SCENE 2 — THE ROPE WALK — LATE MORNING
 **Pages 13–24 · Purpose:** the trade, in working detail; and Elishat.
-**Present:** Elishat (CHR-12), Abdeshmun (CHR-34), 4–6 workers.
+**Present:** Elishat (CHR-12), Yatonbaal (CHR-34), 4–6 workers.
 **Ends when:** a shadow falls across the lane from the north end.
 
 Four hundred paces of open sand lane, low wall on the seaward side, spinning posts at one end and
@@ -95,7 +95,7 @@ fully wordless pages.**
 
 ## SCENE 3 — THE ROPE WALK — MIDDAY
 **Pages 25–38 · Purpose:** something is being prepared in secret.
-**Present:** Zakarbaal (CHR-33), Abdeshmun, Elishat, workers.
+**Present:** Zakarbaal (CHR-33), Yatonbaal, Elishat, workers.
 **Ends when:** Zakarbaal leaves the lane.
 
 A figure at the north end of the lane, in silhouette against the harbour light. He comes down the
@@ -112,7 +112,7 @@ Elishat watches his hands. Soft. No callus. A stylus mark. A burn across the pal
 
 > **ZAKARBAAL (CANON-SOURCE):** How much rope can you make in a month, and can you do it without anyone knowing?
 
-Abdeshmun does not look up. The narration observes why.
+Yatonbaal does not look up. The narration observes why.
 
 > **NARRATION (`PROPOSED +`, adapted from the source):**
 > In Tyre, that was the polite answer to a question like that.
@@ -136,7 +136,7 @@ revealed at the bottom of the preceding page.
 
 ## SCENE 4 — THE ROPE WALK — AFTERNOON
 **Pages 39–42 · Purpose:** end on the rope.
-**Present:** Elishat, Abdeshmun, workers.
+**Present:** Elishat, Yatonbaal, workers.
 **Ends when:** the page ends.
 
 The lane, continuing. The shadow has moved. The work goes on and there is more of it than there was

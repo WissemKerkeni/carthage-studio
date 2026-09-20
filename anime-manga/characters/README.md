@@ -28,7 +28,7 @@ because a new prompt produced something nicer.
 | CHR-10 | **Mathos** | `[A]` | Co-protagonist, Book Four | ch. 95 | written | no |
 | CHR-11 | Fabius Maximus | `[A]` | Antagonist-as-virtue | ch. 136 | pending | no |
 | CHR-12 | **Elishat** | `[F]` | POV, Book One | ch. 1 | written | no |
-| CHR-13 | Tikat | `[F]` | Libyan POV, Book One | ch. 8 | pending | no |
+| CHR-13 | **Tikat** | `[F]` | Libyan POV, Book One; POV of ch. 8 | ch. 8 | written | no |
 | CHR-14 | Regulus | `[A]` | Roman mirror, Book Three | ch. 77 | pending | no |
 | CHR-15 | Xanthippus | `[A]` | Supporting, Book Three | ch. 81 | pending | no |
 | CHR-16 | Milkat | `[F]` | Rower POV, Book Three | ch. 70 | pending | no |
@@ -49,7 +49,7 @@ because a new prompt produced something nicer.
 | CHR-31 | Maharbal | `[A]` | Book Six; ch. 157 | ch. 141 | pending | no |
 | CHR-32 | Iyarut the younger | `[F]` | Numidian POV | ch. 105 | pending | no |
 | CHR-33 | **Zakarbaal** | `[C]` | Inciting figure, Book One | ch. 1 | written | no |
-| CHR-34 | **Abdeshmun** (name `UNCONFIRMED`) | `[F]` | Elishat's father, Book One | ch. 1 | written | no |
+| CHR-34 | **Yatonbaal** | `[F]` | Elishat's father, Book One. Name `CANON` | ch. 1 | written | no |
 | CHR-35 | **Polybius of Megalopolis** | `[A]` | **Narrator, Book Eight** | ch. 185 | written | no |
 | CHR-36 | **Scipio Aemilianus** | `[A]` | Protagonist, Book Eight | ch. 195 | written | no |
 | CHR-37 | **Hasdrubal the Boetharch** | `[A]` | Co-protagonist, Book Eight | ch. 189 | written | no |
@@ -58,13 +58,22 @@ because a new prompt produced something nicer.
 | CHR-40 | Scipio Nasica Corculum | `[A]` | Rome's case against the war | ch. 187 | pending | no |
 | CHR-41 | Hamilcar the Samnite | `[A]`/`[C]` | Deserter, Book Eight | ch. 194 | pending | no |
 | CHR-42 | *the family above the Bagradas* | `[F]` | **Unnamed, by decision.** The last image of the series | ch. 186 | pending | no |
+| CHR-43 | **Bititt** | `[F]` | POV of ch. 5–6; 14 chapters | ch. 6 | written | no |
+| CHR-44 | The priest of Astarte | `[C]` | The first Carthaginian office sold | ch. 5 | pending | no |
+| CHR-45 | The chamberlain | `[F]` | One scene — ch. 3, the paid kindness | ch. 3 | pending | no |
+| CHR-46 | The Libyan trader | `[F]` | Interpreter and cheat, ch. 8 | ch. 8 | pending | no |
+
 > **Roster additions, `PROPOSED`.** CHR-35 to CHR-42 are the Book Eight cast, added when the series
 > was extended to the fall of Carthage in 146 BC. **CHR-38 and CHR-42 are deliberately unnamed** —
 > see their files; the silence is the point, and it rhymes with the eighty women of ch. 6.
 >
-> CHR-33 and CHR-34 both speak in chapter 1 and were missing from
-> this roster. CHR-34 had no name anywhere in the source; two options are set out in his file and
-> the author has not yet chosen. See `manga/chapter-01/chapter.md` §Open decisions.
+> **Arc 1 additions, `PROPOSED`.** CHR-43 to CHR-46 all appear in chapters 3–8 and were missing.
+> **CHR-43 Bititt is the significant one** — `THE-STORY.md` §5–6 gives her fourteen chapters, an
+> arc and a death scene. CHR-44 to CHR-46 are one- or two-scene roles that still need designs.
+>
+> CHR-33 and CHR-34 both speak in chapter 1 and were missing from this roster. **CHR-34 is named
+> `Yatonbaal` — `CANON`, approved 2026-09-20.** The house of Yatonbaal is named for the man who
+> ties the first knot, and the name recurs down the line by Phoenician papponymy.
 
 ## Casting rules for this series
 

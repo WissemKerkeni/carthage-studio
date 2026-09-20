@@ -318,9 +318,11 @@ a nation. Rendering it costs a font in manga and a few lines of ADR in the anime
 
 Genuinely undecided, and needing the author:
 
-1. **CHR-34's name** — Elishat's father. `Abdeshmun` vs `Yatonbaal` (papponymy, so the Knot-keepers
-   alternate two names for six centuries and the audience meets a "Yatonbaal" again at Zama).
-   See `manga/chapter-01/chapter.md`.
+1. ~~**CHR-34's name**~~ — **`RESOLVED`, 2026-09-20: he is Yatonbaal.** The house of Yatonbaal is
+   named for the man who ties the first knot; the name then recurs down the line by Phoenician
+   papponymy, so the Knot-keepers alternate two names for six centuries and the audience meets a
+   Yatonbaal again centuries later. **The second name in the alternation is still open**, and is
+   needed only when ch. 22 (Elishat's son ties the second knot) is written.
 2. **Whether Book Eight's narrator change is announced or discovered.** Current draft announces it
    in Polybius' first lines. The alternative is to let the audience notice, three chapters in, that
    the voice is no longer the one they have listened to for 184 chapters.

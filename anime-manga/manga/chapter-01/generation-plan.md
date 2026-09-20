@@ -31,7 +31,7 @@ after it is wrong, and cheaply fixing it here saves regenerating hundreds of pan
 | ID | Character | Sheets | Notes |
 |---|---|---|---|
 | CHR-12 | Elishat, 14 | Front, side, back, face, expressions, **hands**, + poses | The hands sheet is not optional — see `CHR-12` do-not-drift §2 |
-| CHR-34 | Abdeshmun | Front, side, **back (working posture, walking backwards)**, face, hands | The back sheet matters more than usual: much of scene 2 is shot from behind |
+| CHR-34 | Yatonbaal | Front, side, **back (working posture, walking backwards)**, face, hands | The back sheet matters more than usual: much of scene 2 is shot from behind |
 | CHR-33 | Zakarbaal | Front, side, face, **hands (soft)**, temple-formal variant | His hands sheet and Elishat's are the chapter's thesis and should be reviewed side by side |
 | CHR-06 | Sosylos | **Hands and desk only. No face sheet.** | Face is withheld until ch. 124; do not generate one, so it cannot leak into a panel by accident |
 
@@ -92,6 +92,13 @@ If it cannot, that is worth knowing before 41 other pages have been made.
 
 Panels will exceed three attempts each in practice; consistency work on faces and hands is where
 the real volume goes. **Treat ~500 as a floor, not an estimate.**
+
+## Unknowns — partly resolved 2026-09-20
+
+> **See `visual/generation-tooling.md`** for verified findings. Headline: Midjourney has **no API**,
+> and **Niji 7 has no character-reference parameter** — `--cref` is V6/Niji 6, `--oref` is V7, the
+> Edit Model is V8.x. Point 3 below is therefore confirmed as the project's central risk, and the
+> proposed answer is a Midjourney-for-design / ComfyUI-for-production split.
 
 ## Unknowns to resolve when an integration is connected
 

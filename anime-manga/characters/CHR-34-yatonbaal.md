@@ -1,21 +1,22 @@
-# CHR-34 — ABDESHMUN
+# CHR-34 — YATONBAAL
 
-> **Roster gap, and an open naming decision.** Elishat's father speaks the second and third lines of
-> the series and had no ID, no file, and **no name** — `story/THE-STORY.md` calls him only "Elishat's
-> father", of "the family of Yatonbaal". Created here as `CHR-33`'s counterpart, `PROPOSED`.
+> **Name: `CANON`.** Approved by the author, 2026-09-20. Elishat's father speaks the second and
+> third lines of the series and was unnamed in `story/THE-STORY.md`, which calls him only "Elishat's
+> father", of "the family of Yatonbaal".
 >
-> **Name proposal:** *Abdeshmun* ("servant of Eshmun") `[F]`, an attested Phoenician name type.
-> **Alternative** worth considering: name him **Yatonbaal** after the lineage ancestor, which is
-> historically sound — Phoenician papponymy names a son for his grandfather — and would mean the
-> Knot-keepers alternate two names for six centuries, so that the audience meets a "Yatonbaal" in
-> Book One and again at Zama. That is a stronger long-game choice and a real decision.
-> **Author picks; nothing downstream is written until then.**
+> **He is Yatonbaal**, and the house is named for him — the man who ties the first knot gives the
+> lineage its name. The name then recurs down the line by **Phoenician papponymy**, so the audience
+> meets a Yatonbaal in Book One and again centuries later. The Knot-keepers alternate two names for
+> six hundred years.
+>
+> **Still open, and not blocking:** the *second* name in the alternation. Needed when ch. 22 —
+> Elishat's son ties the second knot — is written. Not before.
 
 ## Identity
 
-- **ID:** CHR-34 · **Name:** Abdeshmun `[F]` — *name is `UNCONFIRMED`, see above*
+- **ID:** CHR-34 · **Name:** Yatonbaal `[F]` · **Name status:** `CANON`
 - **Role:** master rope-maker; head of the house of Yatonbaal; Elishat's father
-- **First appearance:** ch. 1 · **Dies:** `UNCONFIRMED` — the text does not say. Proposal: ch. 10, one of the three winter deaths, which is what puts the cord in Elishat's hands permanently
+- **First appearance:** ch. 1 · **Ties the first knot:** ch. 9/10, in the spring after the first winter `[F]` · **Dies:** `UNCONFIRMED` — the source does not say, and he must **survive the first winter**, because he is alive in the spring to tie the knot. Proposal: offscreen, between ch. 10 and ch. 15
 - **Status:** `PROPOSED`
 
 ## Canonical description
@@ -68,11 +69,16 @@ He is better than most rope-makers and worse than his daughter, and he does not 
 
 ## Arc
 
-Three or four chapters. He takes the commission, makes the rope that makes the escape possible,
-loses the lane, the guild, the city and the contract in a single night, and dies in the first
-African winter of something undramatic. His daughter ties the first knot in ch. 9 while he is still
-alive, which is the correct order: the record starts before the death, so the death is not what the
-cord is about.
+Nine or ten chapters. He takes the commission, makes the rope that makes the escape possible, loses
+the lane, the guild, the city and the contract in a single night, survives a winter that kills
+three, and in the spring **ties a knot in a length of ship's cable and hangs it on a wall** —
+
+> *"What's that for?"*
+> *"So we know we did it."*
+
+Two lines, and they are the origin of the object the series ends on. He has no idea what he has
+started, which is the point. He dies offscreen and undramatically, and the cord passes to his
+daughter because she is the one who is there.
 
 ## Do-not-drift list
 
