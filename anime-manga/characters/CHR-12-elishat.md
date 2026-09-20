@@ -108,11 +108,16 @@ priest tell children a version of her own life that is better than what happened
 
 | Ref | File | Version | Date | Approved |
 |---|---|---|---|---|
-| Front, age 14 | — | — | — | no |
-| Side, age 14 | — | — | — | no |
+| Front, age 14 | `assets/characters/CHR-12-elishat-front-v001.jpg` | v001 | 2026-09-20 | **yes** |
+| Side, age 14 | `assets/characters/CHR-12-elishat-side-v001.jpg` | v001 | 2026-09-20 | **yes** |
 | Back, age 14 | — | — | — | no |
-| Face sheet, age 14 | — | — | — | no |
+| Face 3/4, age 14 | `assets/characters/CHR-12-elishat-face-3q-v001.jpg` | v001 | 2026-09-20 | **yes** — reads ~15–16, see note |
 | Expressions, age 14 | — | — | — | no |
-| **Hands sheet** (splice, pay-out, knot) | — | — | — | no |
+| **Hands sheet** | `assets/characters/CHR-12-elishat-hands-v001.jpg` | v001 | 2026-09-20 | **yes** |
 | Age variant, 20 | — | — | — | no |
 | Age variant, 55 | — | — | — | no |
+
+> **Age note.** The face study reads slightly older than fourteen. Three attempts were made; stating
+> the age numerically with child-specific anchors got closest, and editing an older face younger
+> barely moved it. Accepted for now because the full-body sheets carry her age correctly and panels
+> will show her in proportion to adults. **Re-check apparent age on every close-up of her.**

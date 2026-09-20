@@ -82,6 +82,20 @@ illustration: round faces, large eyes, smiling children.
 **Consequence:** the light page treatment is safe and is now canon. The words *softer* and *rounder*
 are banned from prompts. **Every prompt containing people carries at least one plainness anchor.**
 
+### 6. State the age as a number, in every prompt, including chained ones.
+
+**Age is the axis that drifts, and it drifts older.** Chaining a close-up from an approved
+full-body reference held identity perfectly — the same face, hair, cord tie and expression — but
+aged a fourteen-year-old to roughly eighteen. **Editing afterwards barely moved it.** Restating the
+age numerically in a fresh chained generation, with child-specific anchors (short rounded face,
+soft jaw, fuller cheeks, head large relative to shoulders), worked where the edit did not.
+
+Close-ups drift older than full-body shots — there is more room for adult facial structure.
+
+**Consequence:** every prompt states the character's age in that chapter as a number, and
+**apparent age is a QC check in its own right.** This matters more in this series than in most:
+Hannibal ages 9 to 64 on screen and Elishat 14 to 55.
+
 ### 4. The camera drifts. State it explicitly.
 
 Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,

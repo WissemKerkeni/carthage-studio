@@ -47,7 +47,28 @@ nothing in the bible anchored *weight* — every previous anchor was hard noon s
 
 | Asset ID | Subject | File | Ver | Date | Status |
 |---|---|---|---|---|---|
+| CHR-12-front | Elishat, front, full body, age 14 | `assets/characters/CHR-12-elishat-front-v001.jpg` | v001 | 2026-09-20 | **approved** |
+| CHR-12-side | Elishat, left profile, full body | `assets/characters/CHR-12-elishat-side-v001.jpg` | v001 | 2026-09-20 | **approved** |
+| CHR-12-face-3q | Elishat, three-quarter head study | `assets/characters/CHR-12-elishat-face-3q-v001.jpg` | v001 | 2026-09-20 | **approved**, age residual |
 | CHR-12-hands | Elishat's hands — rope callus, tar-black nail beds | `assets/characters/CHR-12-elishat-hands-v001.jpg` | v001 | 2026-09-20 | **approved** |
+
+### CHR-12 — the consistency test, and what it showed
+
+The front view was generated from the canonical description with no image reference: **the tuned
+text block alone held the register.** Its first pass gave her shoulder-length hair with a braid,
+violating do-not-drift §5 (jaw-length, never flowing); one edit fixed the hair and cleared the
+background while preserving face, pose and clothing.
+
+The side and face views were then **chained from the approved front** via `inputImagePath`.
+
+**Identity held.** Across three generations the same face, the same blunt bob, the same plain tired
+expression, and even the small cord tie at the nape were retained without being re-described.
+This is the mechanism the whole no-training approach depends on, and it works.
+
+**Age did not hold.** The chained close-up aged her from fourteen to roughly eighteen. An edit
+instructing "make her look fourteen" barely moved it. A fresh chained generation that **stated the
+age as a number** with child-specific anchors got closest, and is what was approved — still reading
+around fifteen or sixteen. Recorded as prompting rule 6.
 
 Generated at short prompt length, then **edited** for child proportions. Anatomy correct, callus
 ridges rendered, tar nails correct. **Residual:** scale still reads slightly adult in isolation;
