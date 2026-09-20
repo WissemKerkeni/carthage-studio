@@ -126,6 +126,26 @@ rather than writing "not handsome".
 
 ---
 
-## Location and panel assets
+## APPROVED — location references
+
+| Asset ID | Subject | File | Ver | Date | Status |
+|---|---|---|---|---|---|
+| LOC-01a | Tyre from the sea | `visual/references/STY-03-architecture-v001.jpg` | v001 | 2026-09-20 | **approved** — doubles as STY-03 |
+| LOC-01b | The rope walk, one-point, south to north | `visual/references/STY-01-rope-walk-v002.jpg` | v002 | 2026-09-20 | **approved** — doubles as STY-01 |
+| LOC-01c | Rope walk working detail — tar pot, laying cart, posts, hemp bales | `assets/locations/LOC-01c-ropewalk-detail-v001.jpg` | v001 | 2026-09-21 | **approved** |
+| LOC-01d | Murex shore — vats, shell mounds, crushing yards | `assets/locations/LOC-01d-murex-shore-v001.jpg` | v001 | 2026-09-21 | **approved** |
+| LOC-01e | Sidonian harbour front — counting houses, tribute ships | `assets/locations/LOC-01e-sidonian-harbour-v001.jpg` | v001 | 2026-09-21 | **approved** |
+| LOC-01f | Sosylos' room — desk, window, scrolls | `assets/locations/LOC-01f-sosylos-room-v001.jpg` | v001 | 2026-09-21 | **approved** |
+
+**Stage 2 is complete.** All four generated first-pass with no edits — the first time that has
+happened in this project, and a sign the style block and the seven prompting rules have converged.
+
+**LOC-01e is the notable one.** It carries the crowd-depth handling that STY-04 failed at —
+individuals in the near rows, flat silhouettes behind — and it worked here because the prompt
+carried plainness anchors, exactly as rule 5 predicts. It also stages the chapter's quietest canon
+beat without a caption: two foreign officials sitting at their own table with their own tablets,
+entirely at ease, and nobody on the quay looking at them.
+
+## Panel assets
 
 None generated yet.

@@ -105,12 +105,19 @@ Frozen once STY-01 and STY-03 are approved.
 
 | Ref | File | Version | Date | Approved |
 |---|---|---|---|---|
-| Establishing — island from the sea | — | — | — | no |
-| The rope walk, one-point, south to north | — | — | — | no |
-| The rope walk, working detail (posts, tar, hemp) | — | — | — | no |
-| Temple precinct and the bronze pillars | — | — | — | no |
-| Murex shore and shell mounds | — | — | — | no |
-| Night variant, Egyptian harbour (ch. 4) | — | — | — | no |
+| **LOC-01a** — island from the sea | `visual/references/STY-03-architecture-v001.jpg` | v001 | 2026-09-20 | **yes** — doubles as STY-03 |
+| **LOC-01b** — the rope walk, one-point, south to north | `visual/references/STY-01-rope-walk-v002.jpg` | v002 | 2026-09-20 | **yes** — doubles as STY-01 |
+| **LOC-01c** — rope walk working detail: tar pot, laying cart, posts, hemp bales | `assets/locations/LOC-01c-ropewalk-detail-v001.jpg` | v001 | 2026-09-21 | **yes** |
+| **LOC-01d** — murex shore, vats and shell mounds | `assets/locations/LOC-01d-murex-shore-v001.jpg` | v001 | 2026-09-21 | **yes** |
+| **LOC-01e** — Sidonian harbour front, counting houses, tribute ships | `assets/locations/LOC-01e-sidonian-harbour-v001.jpg` | v001 | 2026-09-21 | **yes** |
+| **LOC-01f** — Sosylos' room, desk, window | `assets/locations/LOC-01f-sosylos-room-v001.jpg` | v001 | 2026-09-21 | **yes** |
+| Temple precinct and the bronze pillars, close | — | — | — | no — not needed for ch. 1 |
+| Night variant, Egyptian harbour (ch. 4) | — | — | — | no — needed by ch. 4 |
+
+> **Chapter 1's location coverage is complete.** Two of the six sheets are the approved style
+> anchors doing double duty: STY-01 *is* the rope walk hero angle, and STY-03 *is* Tyre from the sea.
+> They were generated as style tests and turned out to be the two most-reused location assets in
+> the chapter.
 
 ## Do-not-drift list
 
