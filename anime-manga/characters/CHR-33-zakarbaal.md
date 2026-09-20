@@ -90,8 +90,8 @@ his money and his failure.
 
 | Ref | File | Version | Date | Approved |
 |---|---|---|---|---|
-| Front — rope walk robe | — | — | — | no |
+| Front — rope walk robe | `assets/characters/CHR-33-zakarbaal-front-v001.jpg` | v001 | 2026-09-20 | **yes** |
 | Side — rope walk robe | — | — | — | no |
 | Face sheet | — | — | — | no |
-| **Hands sheet** (soft, stylus mark, censer burn) | — | — | — | no |
+| **Hands sheet** (soft, stylus mark, censer burn) | `assets/characters/CHR-33-zakarbaal-hands-v001.jpg` | v001 | 2026-09-20 | **yes** |
 | Temple formal variant | — | — | — | no |

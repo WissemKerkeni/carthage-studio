@@ -97,7 +97,7 @@ daughter because she is the one who is there.
 
 | Ref | File | Version | Date | Approved |
 |---|---|---|---|---|
-| Front | — | — | — | no |
+| Front | `assets/characters/CHR-34-yatonbaal-front-v001.jpg` | v001 | 2026-09-20 | **yes**, build residual |
 | Side | — | — | — | no |
 | Back — **the working posture, walking backwards** | — | — | — | no |
 | Face sheet | — | — | — | no |

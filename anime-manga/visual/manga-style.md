@@ -96,7 +96,26 @@ Close-ups drift older than full-body shots — there is more room for adult faci
 **apparent age is a QC check in its own right.** This matters more in this series than in most:
 Hannibal ages 9 to 64 on screen and Elishat 14 to 55.
 
-### 4. The camera drifts. State it explicitly.
+### 7. Surface features edit well. Structure does not.
+
+A pattern across every edit attempted so far:
+
+| Edits reliably | Resists editing |
+|---|---|
+| Hair length and style | **Apparent age** |
+| An object — a building, a pillar, a statue | **Body proportion and build** |
+| Background content | |
+| Sky and atmosphere | |
+| Line weight and tonal key | |
+
+Replacing a Greek temple, cutting hair to the jaw, removing statues from pillars and rendering a
+sky all worked in a single pass with everything else preserved. Instructing "make her look
+fourteen" and "make him short and slight with thin legs" both produced only partial movement, and
+in the second case silently dropped an established detail (tar staining to the elbows).
+
+**Consequence:** age, height, build and proportion are **baked into the first generation**, never
+corrected afterwards. When they come out wrong, regenerate with the attribute stated numerically
+and anchored — do not try to edit toward it.
 
 Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
 three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must

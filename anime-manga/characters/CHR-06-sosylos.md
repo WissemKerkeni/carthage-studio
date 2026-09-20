@@ -77,3 +77,15 @@ carefully avoided providing any others.
 3. **The narration is always dated to the writing, not the action** — he is an old man remembering,
    and occasionally gets things wrong on screen, and the series lets the wrongness stand.
 4. In ch. 1 he is a silhouette at a desk. **Do not reveal the face until ch. 124.**
+
+## Reference assets
+
+| Ref | File | Version | Date | Approved |
+|---|---|---|---|---|
+| **Hands and desk** (no face) | `assets/characters/CHR-06-sosylos-hands-desk-v001.jpg` | v001 | 2026-09-20 | **yes** |
+| Face sheet | — | — | — | **do not generate before ch. 124** |
+
+> **Standing instruction.** No face reference exists for Sosylos and none is to be generated until
+> ch. 124, so that it cannot leak into an earlier panel by accident. The ch. 1 frame is hands, desk
+> and scroll only, cropped at the forearms.
+

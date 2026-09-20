@@ -51,6 +51,22 @@ nothing in the bible anchored *weight* — every previous anchor was hard noon s
 | CHR-12-side | Elishat, left profile, full body | `assets/characters/CHR-12-elishat-side-v001.jpg` | v001 | 2026-09-20 | **approved** |
 | CHR-12-face-3q | Elishat, three-quarter head study | `assets/characters/CHR-12-elishat-face-3q-v001.jpg` | v001 | 2026-09-20 | **approved**, age residual |
 | CHR-12-hands | Elishat's hands — rope callus, tar-black nail beds | `assets/characters/CHR-12-elishat-hands-v001.jpg` | v001 | 2026-09-20 | **approved** |
+| CHR-34-front | Yatonbaal, front, full body, age 38 | `assets/characters/CHR-34-yatonbaal-front-v001.jpg` | v001 | 2026-09-20 | **approved**, build residual |
+| CHR-33-front | Zakarbaal, front, full body, age 45 | `assets/characters/CHR-33-zakarbaal-front-v001.jpg` | v001 | 2026-09-20 | **approved** |
+| CHR-33-hands | Zakarbaal's hand — soft, uncallused, censer scar | `assets/characters/CHR-33-zakarbaal-hands-v001.jpg` | v001 | 2026-09-20 | **approved** |
+| CHR-06-hands-desk | Sosylos' hands, desk and scroll. **No face** | `assets/characters/CHR-06-sosylos-hands-desk-v001.jpg` | v001 | 2026-09-20 | **approved** |
+
+**Chapter 1's cast is now referenced.** The gate in `chapter-01/generation-plan.md` — Elishat's and
+Zakarbaal's hands reviewed side by side — is **passed**: hers is dense with callus, tar-black nail
+beds and heavy tone; his is pale, smooth, unmarked but for the censer scar, and carried almost
+entirely in white paper. The chapter's visual thesis reads without a caption.
+
+**Yatonbaal's build residual.** His first pass came out as an athletic figure with a defined torso,
+against a canon description of *lean, heavy forearms and shoulders, thin legs*. An edit flattened
+the torso and thinned the legs but only partially, and **silently dropped the tar staining to the
+elbows** established in the first pass. Accepted as a neutral model sheet — the tar is scene
+dress and is carried in his wardrobe notes — but his proportions should be re-checked in panels,
+and a side and back sheet generated with the build stated up front rather than edited toward.
 
 ### CHR-12 — the consistency test, and what it showed
 
