@@ -72,6 +72,14 @@ after three full regenerations each lost something the previous one had.
 **Consequence:** a panel that is 90% right is never thrown away. It is edited. This is also what
 makes "regenerate only the failing panels" achievable at all.
 
+### 4. The camera drifts. State it explicitly.
+
+Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
+three-quarter and diagonal views, losing the composition each time a different element was fixed.
+Camera position, eye height and vanishing-point placement have to be stated as instructions —
+*"camera at standing eye level, on the ground in the middle of the lane, looking straight down its
+length, vanishing point at the centre of the frame"* — and verified on every establishing shot.
+
 ### 5. "Lighter" and "softer" are not the same instruction.
 
 Asked for a lighter, higher-key page, a **face** held its register — because the prompt carried hard
@@ -120,6 +128,20 @@ and anchored — do not try to edit toward it.
 Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
 three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must
 be stated as instructions, and even then are verified on every establishing shot.
+
+### 8. The generator cannot produce B5. Compose for the crop.
+
+`manga-style.md` sets the page at **B5, 1.41:1**. The generator offers 3:4 (1.33) and 2:3 (1.50) —
+**neither is the page** — and a full-page panel's frame is narrower still: with 15 mm insets the
+panel is 1442 x 2327, an aspect of 1.61.
+
+Page 13's art lost **610 px of width, 17%**, in assembly. An even crop clipped the foreground
+worker's hands at the panel edge, against the series' own hands principle. Taking the whole cut
+from the left preserved him, and the wall still carried the diagonal.
+
+**Consequence:** full-page panels are composed knowing they will be cropped. Load-bearing content —
+figures, hands, the vanishing point — goes **centre and right**; the left carries expendable mass
+such as a shadow field or a wall. The crop is then chosen at assembly rather than defaulting to centre.
 
 ---
 

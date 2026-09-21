@@ -146,6 +146,25 @@ carried plainness anchors, exactly as rule 5 predicts. It also stages the chapte
 beat without a caption: two foreign officials sitting at their own table with their own tablets,
 entirely at ease, and nobody on the quay looking at them.
 
+## APPROVED — pages
+
+| Page | Panels | File | Ver | Date | Status |
+|---|---|---|---|---|---|
+| **013** | 1 (full page) | `manga/chapter-01/pages/page-013-v001.png` | v001 | 2026-09-21 | **approved** |
+
+**The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
+full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
+
+Produced in pipeline order — panel spec written first, then art derived **by edit** from the
+approved LOC-01b rather than generated fresh, then assembled to trim. The only generation was one
+edit adjusting the shadow to its 120-pace reading and thickening the hemp dust.
+
+**What page 13 proved.** It was chosen as the first page because it is the hardest image in the
+chapter. It turned out not to test generation at all — LOC-01b already *was* the image — but to
+test **assembly**, and it found a real constraint: the generator has no B5 aspect ratio, so 17% of
+the art's width was lost at the panel frame. That is now prompting rule 8, and it changes how every
+remaining full-page panel is composed.
+
 ## Panel assets
 
-None generated yet.
+Page 13 is the only page assembled. 125 panels remain.
