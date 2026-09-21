@@ -151,6 +151,7 @@ entirely at ease, and nobody on the quay looking at them.
 | Page | Panels | File | Ver | Date | Status |
 |---|---|---|---|---|---|
 | **013** | 1 (full page) | `manga/chapter-01/pages/page-013-v001.png` | v001 | 2026-09-21 | **approved** |
+| **017** | 4 | `manga/chapter-01/pages/page-017-v001.png` | v001 | 2026-09-21 | **approved**, one residual |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -165,6 +166,21 @@ test **assembly**, and it found a real constraint: the generator has no B5 aspec
 the art's width was lost at the panel frame. That is now prompting rule 8, and it changes how every
 remaining full-page panel is composed.
 
+### Page 17 — the character-consistency test in composed panels
+
+Four panels, each chained from a different approved CHR-12 sheet: hands for panels 1 and 2, the
+face study for panel 3, the front sheet for panel 4.
+
+**Identity held across three scales.** Extreme close-up of hands, close-up of face, wide shot of
+the whole figure — recognisably the same person in all of them, with the cord-tied stub at the
+nape, the patched shift and the plain tired face carried through without being re-described.
+**This is the question the whole no-training approach rested on, and the answer is yes.**
+
+Two failures, both instructive:
+
+- **Panel 1 v001 rejected.** Two hands plus a fid produced three or four overlapping hand masses, anatomically unreadable — the same failure mode as the first E1 attempt. Regenerating with **one hand only** resolved it. Extreme close-ups of two hands doing complex work are this pipeline's weakest case, and the fix is to reduce the number of hands rather than to describe them harder.
+- **Panel 2's nail edit did not take.** Instructing that the left hand's pale nails be blackened to match the right produced a visually unchanged image. This refines rule 7: **small localised detail changes resist editing as much as structural ones do.** Replacing a temple or cutting hair works; recolouring four fingernails on one specified hand does not. Accepted as a residual because at 650 px panel width the nails are not legible.
+
 ## Panel assets
 
-Page 13 is the only page assembled. 125 panels remain.
+2 pages of 42 assembled. 122 panels remain.

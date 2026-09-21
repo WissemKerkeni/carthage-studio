@@ -121,6 +121,11 @@ sky all worked in a single pass with everything else preserved. Instructing "mak
 fourteen" and "make him short and slight with thin legs" both produced only partial movement, and
 in the second case silently dropped an established detail (tar staining to the elbows).
 
+**Also resistant: small localised detail.** Instructing that four fingernails on one named hand be
+blackened to match the other produced a visually unchanged image. So it is not simply "structure
+resists" — it is that the edit needs a **large, clearly bounded subject**. A temple, a head of
+hair, a sky and a pair of statues all edit cleanly; four fingernails do not.
+
 **Consequence:** age, height, build and proportion are **baked into the first generation**, never
 corrected afterwards. When they come out wrong, regenerate with the attribute stated numerically
 and anchored — do not try to edit toward it.
