@@ -156,6 +156,14 @@ entirely at ease, and nobody on the quay looking at them.
 | **036** | 3 | `manga/chapter-01/pages/page-036-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 | **037** | 3 | `manga/chapter-01/pages/page-037-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 | **038** | 5 | `manga/chapter-01/pages/page-038-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
+| **001** | 3 | `manga/chapter-01/pages/page-001-v001.png` | v001 | 2026-09-22 | **approved** |
+| **002** | 4 | `manga/chapter-01/pages/page-002-v001.png` | v001 | 2026-09-22 | **approved** |
+| **003** | 2 | `manga/chapter-01/pages/page-003-v001.png` | v001 | 2026-09-22 | **approved** |
+| **004** | 1 | `manga/chapter-01/pages/page-004-v001.png` | v001 | 2026-09-22 | **approved** |
+| **039** | 3 | `manga/chapter-01/pages/page-039-v001.png` | v001 | 2026-09-22 | **approved** |
+| **040** | 2 | `manga/chapter-01/pages/page-040-v001.png` | v001 | 2026-09-22 | **approved** |
+| **041** | 3 | `manga/chapter-01/pages/page-041-v001.png` | v001 | 2026-09-22 | **approved** |
+| **042** | 1 | `manga/chapter-01/pages/page-042-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -260,6 +268,29 @@ sheets have neutral backgrounds, so nothing anchors the place. Recorded as promp
 in any panel chained to a character, describe the location in the prompt at the same specificity
 garments get. Both corrected first pass.
 
+### Pages 1–4 and 39–42 — the chapter's opening and its ending, in one batch
+
+19 panels, 8 pages, one pass. **Pace was the point:** the long per-page specs and per-page commits
+of pp. 13–38 existed to capture findings while the pipeline was unproven. With ten rules recorded
+and the structural risks retired, that overhead was no longer buying anything, so this batch was
+generated in bulk, assembled in one script, spot-checked rather than panel-checked, and committed
+once.
+
+**Scene 0** puts Sosylos at the desk with no face, head or shoulders in any panel, and places the
+canon narration on the storyboard's exact beats — the hands stop on *"none of them will survive"*,
+start again on *"let me begin"*, and the frame closes on *"stolen from a corpse"*.
+
+**Scene 4** is wordless throughout and ends the chapter on page 42: rope filling the frame, no
+hands, no people, no words.
+
+**A dependency now runs backwards.** `page-plan.md` makes the hemp yard a matched pair — p. 39's
+pile is *"visibly fuller than p. 14"*, and it is the only plot evidence in the chapter. Page 39
+exists first, so **p. 14 must now be built to match p. 39's angle and framing** with a smaller pile.
+
+**One layout deviation, flagged not hidden:** p. 1 is three stacked full-width panels rather than
+the page plan's *"wide top band, two below"*, because all three images are landscape. Page plan and
+art need reconciling.
+
 ## Panel assets
 
-7 pages of 42 assembled. 109 panels remain.
+15 pages of 42 assembled. 90 panels remain.
