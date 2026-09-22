@@ -164,6 +164,13 @@ entirely at ease, and nobody on the quay looking at them.
 | **040** | 2 | `manga/chapter-01/pages/page-040-v001.png` | v001 | 2026-09-22 | **approved** |
 | **041** | 3 | `manga/chapter-01/pages/page-041-v001.png` | v001 | 2026-09-22 | **approved** |
 | **042** | 1 | `manga/chapter-01/pages/page-042-v001.png` | v001 | 2026-09-22 | **approved** |
+| **014** | 5 | `manga/chapter-01/pages/page-014-v001.png` | v001 | 2026-09-22 | **approved** |
+| **015** | 3 | `manga/chapter-01/pages/page-015-v001.png` | v001 | 2026-09-22 | **approved** |
+| **016** | 2 | `manga/chapter-01/pages/page-016-v001.png` | v001 | 2026-09-22 | **approved** |
+| **018** | 2 | `manga/chapter-01/pages/page-018-v001.png` | v001 | 2026-09-22 | **approved** |
+| **019** | 3 | `manga/chapter-01/pages/page-019-v001.png` | v001 | 2026-09-22 | **approved** |
+| **020** | 5 | `manga/chapter-01/pages/page-020-v001.png` | v001 | 2026-09-22 | **approved** |
+| **021** | 4 | `manga/chapter-01/pages/page-021-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -291,6 +298,21 @@ exists first, so **p. 14 must now be built to match p. 39's angle and framing** 
 the page plan's *"wide top band, two below"*, because all three images are landscape. Page plan and
 art need reconciling.
 
+### Pages 14–16 and 18–21 — scene 2 completed
+
+24 panels, 7 pages, one batch. **Scene 2 is now complete at pages 13–21.**
+
+The forward dependency is resolved: p. 14's hemp yard was generated **from p. 39's image**, same
+angle and framing, smaller pile — so the chapter's only plot evidence reads correctly despite
+having been built back to front.
+
+Page 19 carries the scene's only narration and argues it visually first: her hands splice clean and
+fast, then her father works the same join slowly with his crooked fingers awkward on the strands,
+and the caption lands under him.
+
+Rules 9 and 10 applied throughout — every panel with people chained to a reference, every chained
+panel describing its own location. **No rejections in this batch.**
+
 ## Panel assets
 
-15 pages of 42 assembled. 90 panels remain.
+**21 of 42 pages assembled — half the chapter. 65 panels remain.**
