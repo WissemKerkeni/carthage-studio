@@ -134,6 +134,30 @@ Asked repeatedly for a strict centred one-point perspective, the model drifted t
 three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must
 be stated as instructions, and even then are verified on every establishing shot.
 
+### 9. "Japanese" in the style block can drift the SETTING to Japan.
+
+**The worst failure in the project so far.** A wide shot generated *without* a chained character
+reference came back with the standing figure in a **kimono**, the labourer in a **conical straw
+hat**, and a **pagoda-roofed temple** at the end of the lane — while the prompt explicitly said
+*"an ancient Phoenician city, 9th century BC"* and *"a small flat-roofed temple"*.
+
+The two panels beside it on the same page, chained from character sheets, were flawless.
+
+The style block says *Japanese seinen manga*. Without an image anchor and with a loosely named
+garment — *"a plain well-made full-length robe"* — the model applied Japanese **setting**, not just
+the Japanese **drawing idiom**. Naming the period did not save it; rule 1 again — a negative or a
+bare label loses to a concrete description.
+
+**Consequences, all three required:**
+
+1. **Every panel containing people is chained from a character reference.** No exceptions.
+2. **Garments are named specifically** — *"ankle-length Levantine tunic-robe with straight vertical folds and a plain round neck"*, not *"a robe"*; *"short undyed linen kilt to the knee"*, not *"a kilt"*.
+3. **Write "Japanese seinen manga drawing style"**, and place the setting anchor next to each figure rather than only at the end of the prompt.
+
+In a two-character panel the one-reference limit means the second figure will drift. Chain the more
+distinctive character, then **edit the other's hair and beard in** — surface features, which rule 7
+says take cleanly. That worked here.
+
 ### 8. The generator cannot produce B5. Compose for the crop.
 
 `manga-style.md` sets the page at **B5, 1.41:1**. The generator offers 3:4 (1.33) and 2:3 (1.50) —

@@ -154,6 +154,7 @@ entirely at ease, and nobody on the quay looking at them.
 | **017** | 4 | `manga/chapter-01/pages/page-017-v001.png` | v001 | 2026-09-21 | **approved**, one residual |
 | **035** | 2 | `manga/chapter-01/pages/page-035-v001.png` | v001 | 2026-09-22 | **approved** |
 | **036** | 3 | `manga/chapter-01/pages/page-036-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
+| **037** | 3 | `manga/chapter-01/pages/page-037-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -222,6 +223,26 @@ first line, failing the readability checklist. Placement is now **clamped inside
 rectangle and asserted at assembly** rather than trusted to the eye — the assertion caught a 5 px
 overflow on the retry, which is exactly what it is for.
 
+### Page 37 — and the worst failure in the project so far
+
+Panels 1 and 2 chained from character sheets and were flawless first pass.
+
+**Panel 3 was generated fresh, without a chained reference, and drifted wholesale into Japan:**
+the standing figure in a **kimono**, the labourer in a **conical straw hat**, a **pagoda-roofed
+temple** at the end of the lane. The prompt had said "an ancient Phoenician city, 9th century BC"
+and "a small flat-roofed temple". Naming the period did not hold it.
+
+The cause is the style block's own words. *Japanese seinen manga*, plus a loosely named garment —
+"a plain well-made full-length robe" — and no image anchor, and the model applied Japanese
+**setting** rather than Japanese **drawing idiom**. Recorded as prompting rule 9, with three
+consequences: chain every panel containing people, name garments specifically, and say "Japanese
+seinen manga drawing style".
+
+**v002** chained from Zakarbaal's sheet fixed the setting, but the second figure was not Yatonbaal —
+the one-reference-per-call limit biting in a two-character panel. **v003** edited a short untended
+beard and greying temples onto him, and they took cleanly, **confirming rule 7 inside a complex
+two-figure scene**: chain the distinctive character, edit the other's hair and beard in.
+
 ## Panel assets
 
-5 pages of 42 assembled. 117 panels remain.
+6 pages of 42 assembled. 114 panels remain.

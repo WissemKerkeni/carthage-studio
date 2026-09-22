@@ -101,4 +101,4 @@ daughter because she is the one who is there.
 | Side | — | — | — | no |
 | Back — **the working posture, walking backwards** | — | — | — | no |
 | Face sheet | — | — | — | no |
-| Hands sheet (horn callus, crooked fingers) | — | — | — | no |
+| Hands sheet (horn callus, crooked fingers) | `assets/characters/CHR-34-yatonbaal-hands-v001.jpg` | v001 | 2026-09-22 | **yes** |
