@@ -186,6 +186,11 @@ entirely at ease, and nobody on the quay looking at them.
 | **027** | 5 | `manga/chapter-01/pages/page-027-v001.png` | v001 | 2026-09-22 | **approved** |
 | **028** | 4 | `manga/chapter-01/pages/page-028-v001.png` | v001 | 2026-09-22 | **approved** |
 | **029** | 3 | `manga/chapter-01/pages/page-029-v001.png` | v001 | 2026-09-22 | **approved** |
+| **030** | 4 | `manga/chapter-01/pages/page-030-v001.png` | v001 | 2026-09-22 | **approved** |
+| **031** | 3 | `manga/chapter-01/pages/page-031-v001.png` | v001 | 2026-09-22 | **approved** |
+| **032** | 4 | `manga/chapter-01/pages/page-032-v001.png` | v001 | 2026-09-22 | **approved** |
+| **033** | 2 | `manga/chapter-01/pages/page-033-v001.png` | v001 | 2026-09-22 | **approved** |
+| **034** | 3 | `manga/chapter-01/pages/page-034-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -367,6 +372,39 @@ in response*. Reframed as a tight close-up of her whole face with the eyes turne
 same beat and reads better, since the unmoved expression around the moved eyes is the point.
 First outright generation failure in the project.
 
+### Pages 30–34 — the gamble, and the chapter closed
+
+16 panels, 5 pages, entirely wordless. This is the sequence `page-plan.md` flagged as the chapter's
+risk: *four wordless pages of a man watching people work.*
+
+It is carried by four devices and none of them is dialogue. **Duration is made measurable** — p. 32
+uses the laying cart as a ruler, level with the first post and then far down the row with the
+finished cable behind it, the tar pot fixed in frame as a marker, so the reader can see how much
+rope was made while he stood there. **He is the only static thing** in five pages of continuous
+work. **Page 33 is two near-identical wides whose only difference is the shadow**, longer and gone
+to solid black. And **nobody acknowledges him** until p. 34, and then only with eyes.
+
+**One artifact caught in QC:** p. 32 panel 2 came back with **"LAYING CART" hand-lettered into the
+artwork** — a label the model wrote itself. Edited out. New failure mode: the generator will
+sometimes write English labels into the art, and panels must be checked for stray text.
+
+---
+
+# CHAPTER 1 COMPLETE
+
+**42 of 42 pages. 126 of 126 panels.** Every page assembled at 2150 × 3035, B5 tankobon, 600 dpi.
+
+| Stage | Result |
+|---|---|
+| Style anchors | 5 approved |
+| Character references | 9 approved, chapter 1 cast complete |
+| Location references | 6 approved |
+| Pages | **42** |
+| Prompting rules earned | 10 |
+
+**Lettering is placeholder throughout** — Arial set programmatically. It satisfies the balloon
+vocabulary and proves placement and reading flow, but a letterer replaces it.
+
 ## Panel assets
 
-**37 of 42 pages assembled. 16 panels remain, all in pages 30–34.**
+Chapter 1 complete. Chapter 2 not started.

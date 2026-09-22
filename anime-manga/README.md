@@ -86,13 +86,29 @@ Untagged prose in a template is structure, not story.
 
 ## Tooling status
 
-| Capability | Required by workflow | Present in this session |
+| Capability | Required by workflow | Status |
 |---|---|---|
 | Project files / Git | yes | available |
-| Midjourney / Niji image generation | manga art | **NOT CONNECTED** |
-| Higgsfield video generation | anime shots | **NOT CONNECTED** |
-| Inline SVG/HTML rendering | page layout mockups | available |
+| Image generation | manga art | **connected** — `mcp-image` / `gemini-3-pro-image` |
+| Page assembly | trim, panels, lettering | **built** — PIL, B5 at 600 dpi |
+| Video generation | anime shots | not connected — the anime phase has not opened |
 
-Until an image-generation integration is connected, this project produces text
-specifications, storyboards and panel-level prompts. Those are the inputs the art
-step needs, so no work is wasted, but no artwork can be rendered from here.
+**Midjourney was evaluated and rejected**: it has no public API, and Niji 7 carries no
+character-reference parameter. See `visual/generation-tooling.md`.
+
+## Production status
+
+**Chapter 1 is drawn.** 42 of 42 pages, 126 of 126 panels, assembled at 2150 × 3035 px,
+B5 tankobon at 600 dpi.
+
+| | |
+|---|---|
+| Style anchors | 5 approved — `visual/references/` |
+| Character references | 9 approved — chapter 1 cast complete |
+| Location references | 6 approved |
+| Prompting rules | 10, each earned from a logged failure — `visual/manga-style.md` |
+
+**Lettering is placeholder** — set programmatically in Arial. It satisfies the balloon vocabulary
+and proves placement and reading flow; a letterer replaces it.
+
+Everything generated, rejected and approved is recorded in `assets/ASSET-LOG.md`.
