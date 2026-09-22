@@ -152,6 +152,7 @@ entirely at ease, and nobody on the quay looking at them.
 |---|---|---|---|---|---|
 | **013** | 1 (full page) | `manga/chapter-01/pages/page-013-v001.png` | v001 | 2026-09-21 | **approved** |
 | **017** | 4 | `manga/chapter-01/pages/page-017-v001.png` | v001 | 2026-09-21 | **approved**, one residual |
+| **035** | 2 | `manga/chapter-01/pages/page-035-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -181,6 +182,23 @@ Two failures, both instructive:
 - **Panel 1 v001 rejected.** Two hands plus a fid produced three or four overlapping hand masses, anatomically unreadable — the same failure mode as the first E1 attempt. Regenerating with **one hand only** resolved it. Extreme close-ups of two hands doing complex work are this pipeline's weakest case, and the fix is to reduce the number of hands rather than to describe them harder.
 - **Panel 2's nail edit did not take.** Instructing that the left hand's pale nails be blackened to match the right produced a visually unchanged image. This refines rule 7: **small localised detail changes resist editing as much as structural ones do.** Replacing a temple or cutting hair works; recolouring four fingernails on one specified hand does not. Accepted as a residual because at 650 px panel width the nails are not legible.
 
+### Page 35 — the thesis
+
+The page the chapter was built around: two pairs of hands, identical framing, identical scale,
+identical light. His soft, pale and uncallused; hers with tar-black nail beds on both hands.
+
+**Both pairs were staged at rest**, a refinement on beat 23, which had her splicing while he stood
+idle. With neither pair working, the difference is purely what the hands **are** rather than what
+they are doing — and they still could not be more different.
+
+Both panels chained cleanly from their approved sheets, first pass, no edits. The tar-nail split
+that marred p. 17 panel 02 did not recur.
+
+**Residual left deliberately.** Her hands read closer to adult than fourteen — the same residual
+already logged against `CHR-12-elishat-hands-v001`. Not corrected, because the panel matches the
+approved sheet and **consistency with the reference outranks being right in isolation.** If it is
+ever fixed, the sheet is fixed first and the panels follow.
+
 ## Panel assets
 
-2 pages of 42 assembled. 122 panels remain.
+3 pages of 42 assembled. 120 panels remain.
