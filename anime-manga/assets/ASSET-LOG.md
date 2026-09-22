@@ -171,6 +171,13 @@ entirely at ease, and nobody on the quay looking at them.
 | **019** | 3 | `manga/chapter-01/pages/page-019-v001.png` | v001 | 2026-09-22 | **approved** |
 | **020** | 5 | `manga/chapter-01/pages/page-020-v001.png` | v001 | 2026-09-22 | **approved** |
 | **021** | 4 | `manga/chapter-01/pages/page-021-v001.png` | v001 | 2026-09-22 | **approved** |
+| **005–006** | 1 (spread) | `manga/chapter-01/pages/page-005-v001.png` + `page-006` | v001 | 2026-09-22 | **approved** |
+| **007** | 5 | `manga/chapter-01/pages/page-007-v001.png` | v001 | 2026-09-22 | **approved** |
+| **008** | 4 | `manga/chapter-01/pages/page-008-v001.png` | v001 | 2026-09-22 | **approved** |
+| **009** | 3 | `manga/chapter-01/pages/page-009-v001.png` | v001 | 2026-09-22 | **approved** |
+| **010** | 4 | `manga/chapter-01/pages/page-010-v001.png` | v001 | 2026-09-22 | **approved** |
+| **011** | 3 | `manga/chapter-01/pages/page-011-v001.png` | v001 | 2026-09-22 | **approved** |
+| **012** | 2 | `manga/chapter-01/pages/page-012-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -313,6 +320,26 @@ and the caption lands under him.
 Rules 9 and 10 applied throughout — every panel with people chained to a reference, every chained
 panel describing its own location. **No rejections in this batch.**
 
+### Pages 5–12 — Tyre, and the project's first spread
+
+22 panels, 8 pages. Scene 1 complete.
+
+**The spread** is the first in the project: one continuous image across both pages, split at the
+trim, page 5 taking the right half under right-to-left binding.
+
+**Its first version was rejected on `LOC-01` do-not-drift §1** — it came back a low, bright,
+spread-out hill-town of two and three storeys, against a rule that reads *"Six storeys, leaning.
+Tyre is vertical and crowded. It is never drawn as a low classical town."* v002 pushes density and
+height hard and now reads as a sheer packed cliff of leaning tenements rising from the water with
+the ships dwarfed beneath it. The one rejection in this batch, and the do-not-drift list caught it.
+
+**Page 9** places the scene's only caption over a man eating his lunch beside a dye vat, entirely
+unbothered by it — which is what *"everybody who lived there had stopped noticing"* looks like.
+
+**Page 10** stages the chapter's quietest canon beat again, wider than LOC-01e did: foreign
+officials at their own table with their own tablets and a guard behind them, and not one Tyrian in
+frame looking at them.
+
 ## Panel assets
 
-**21 of 42 pages assembled — half the chapter. 65 panels remain.**
+**29 of 42 pages assembled. 43 panels remain across pages 22–34.**
