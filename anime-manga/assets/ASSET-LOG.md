@@ -153,6 +153,7 @@ entirely at ease, and nobody on the quay looking at them.
 | **013** | 1 (full page) | `manga/chapter-01/pages/page-013-v001.png` | v001 | 2026-09-21 | **approved** |
 | **017** | 4 | `manga/chapter-01/pages/page-017-v001.png` | v001 | 2026-09-21 | **approved**, one residual |
 | **035** | 2 | `manga/chapter-01/pages/page-035-v001.png` | v001 | 2026-09-22 | **approved** |
+| **036** | 3 | `manga/chapter-01/pages/page-036-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -199,6 +200,28 @@ already logged against `CHR-12-elishat-hands-v001`. Not corrected, because the p
 approved sheet and **consistency with the reference outranks being right in isolation.** If it is
 ever fixed, the sheet is fixed first and the panels follow.
 
+### Page 36 — two characters in frame, and the first spoken line
+
+The first page carrying dialogue. Pages 1–35 are narration only.
+
+**Two characters held in one frame.** Yatonbaal in the near foreground as a solid black mass,
+Zakarbaal standing isolated in the open lane — scale, lighting and register consistent between
+them, both chained from their own approved sheets. The 180-degree line set on p. 29 holds.
+
+**Panel 3 was rejected on canon, not on quality.** The crooked left fingers did not read, and
+`CHR-34` do-not-drift §3 requires them in every panel showing his hands. Rejected under the
+project's own rule that continuity outranks image quality, and regenerated with the deformity as
+the subject. **The v002 art should be promoted to CHR-34's hands sheet**, which does not yet exist.
+
+**Lettering is placeholder.** `production-pipeline-plan.md` says lettering stays human; the type
+here is Arial set programmatically. It satisfies the balloon-shape vocabulary and proves placement
+and reading flow, but it is not final typography.
+
+The first lettering pass was rejected: the balloon overflowed the panel border and clipped its
+first line, failing the readability checklist. Placement is now **clamped inside the panel
+rectangle and asserted at assembly** rather than trusted to the eye — the assertion caught a 5 px
+overflow on the retry, which is exactly what it is for.
+
 ## Panel assets
 
-3 pages of 42 assembled. 120 panels remain.
+5 pages of 42 assembled. 117 panels remain.
