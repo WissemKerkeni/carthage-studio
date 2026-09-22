@@ -53,6 +53,7 @@ mouth"` produced the approved STY-02.
 description before it enters a prompt. The list stays as it is for QC; the prompt gets the
 affirmative form.
 
+
 ### 2. Keep prompts short, or the style slips.
 
 Lengthening a prompt to nail one detail caused the model to trade away rendering discipline.
@@ -63,6 +64,7 @@ anatomy and crisp halftone.
 **Consequence:** state the subject plainly, attach the style block, and **fix remaining detail by
 editing rather than by adding sentences.**
 
+
 ### 3. Edit; do not regenerate.
 
 `inputImagePath` edits preserve composition, tone and line style while changing one named element.
@@ -72,6 +74,7 @@ after three full regenerations each lost something the previous one had.
 **Consequence:** a panel that is 90% right is never thrown away. It is edited. This is also what
 makes "regenerate only the failing panels" achievable at all.
 
+
 ### 4. The camera drifts. State it explicitly.
 
 Asked repeatedly for a strict centred one-point perspective, the model drifted to raised,
@@ -79,6 +82,7 @@ three-quarter and diagonal views, losing the composition each time a different e
 Camera position, eye height and vanishing-point placement have to be stated as instructions —
 *"camera at standing eye level, on the ground in the middle of the lane, looking straight down its
 length, vanishing point at the centre of the frame"* — and verified on every establishing shot.
+
 
 ### 5. "Lighter" and "softer" are not the same instruction.
 
@@ -89,6 +93,7 @@ illustration: round faces, large eyes, smiling children.
 
 **Consequence:** the light page treatment is safe and is now canon. The words *softer* and *rounder*
 are banned from prompts. **Every prompt containing people carries at least one plainness anchor.**
+
 
 ### 6. State the age as a number, in every prompt, including chained ones.
 
@@ -103,6 +108,7 @@ Close-ups drift older than full-body shots — there is more room for adult faci
 **Consequence:** every prompt states the character's age in that chapter as a number, and
 **apparent age is a QC check in its own right.** This matters more in this series than in most:
 Hannibal ages 9 to 64 on screen and Elishat 14 to 55.
+
 
 ### 7. Surface features edit well. Structure does not.
 
@@ -134,26 +140,21 @@ Asked repeatedly for a strict centred one-point perspective, the model drifted t
 three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must
 be stated as instructions, and even then are verified on every establishing shot.
 
-### 10. One reference slot anchors the character OR the location. Never both.
 
-The MCP server passes **one** image per call. Chaining a character sheet anchors the person — and
-the sheets have neutral backgrounds, so **nothing anchors the place**, and the model invents one.
+### 8. The generator cannot produce B5. Compose for the crop.
 
-On page 38 this produced a close-up of Zakarbaal in a **narrow stone alley with a doorway**, and a
-medium of Yatonbaal with **palm trees, a multi-storey town and background crowds** — both in a
-scene whose location has been a bare open sand lane since page 13. Neither prompt had described
-the lane; both had assumed the chained sheet would carry it.
+`manga-style.md` sets the page at **B5, 1.41:1**. The generator offers 3:4 (1.33) and 2:3 (1.50) —
+**neither is the page** — and a full-page panel's frame is narrower still: with 15 mm insets the
+panel is 1442 x 2327, an aspect of 1.61.
 
-**Consequence:** in any panel chained to a character, the location is described **in the prompt,
-at the same specificity garments get** (rule 9) — *"a long open lane of pale bare sand, a low
-flat-topped stone wall running away into the distance, tall plain wooden spinning posts in a
-receding row with rope strung between them, open bright sky, flat empty sand from edge to edge"*.
+Page 13's art lost **610 px of width, 17%**, in assembly. An even crop clipped the foreground
+worker's hands at the panel edge, against the series' own hands principle. Taking the whole cut
+from the left preserved him, and the wall still carried the diagonal.
 
-Write what the place **contains**. Both corrected panels came back right first pass.
+**Consequence:** full-page panels are composed knowing they will be cropped. Load-bearing content —
+figures, hands, the vanishing point — goes **centre and right**; the left carries expendable mass
+such as a shadow field or a wall. The crop is then chosen at assembly rather than defaulting to centre.
 
-**Related artifact:** one rejected panel also drew **its own internal vertical division**, as
-though generating a two-panel layout. If an image comes back with an unexplained hard edge across
-it, regenerate — do not crop around it.
 
 ### 9. "Japanese" in the style block can drift the SETTING to Japan.
 
@@ -179,19 +180,27 @@ In a two-character panel the one-reference limit means the second figure will dr
 distinctive character, then **edit the other's hair and beard in** — surface features, which rule 7
 says take cleanly. That worked here.
 
-### 8. The generator cannot produce B5. Compose for the crop.
 
-`manga-style.md` sets the page at **B5, 1.41:1**. The generator offers 3:4 (1.33) and 2:3 (1.50) —
-**neither is the page** — and a full-page panel's frame is narrower still: with 15 mm insets the
-panel is 1442 x 2327, an aspect of 1.61.
+### 10. One reference slot anchors the character OR the location. Never both.
 
-Page 13's art lost **610 px of width, 17%**, in assembly. An even crop clipped the foreground
-worker's hands at the panel edge, against the series' own hands principle. Taking the whole cut
-from the left preserved him, and the wall still carried the diagonal.
+The MCP server passes **one** image per call. Chaining a character sheet anchors the person — and
+the sheets have neutral backgrounds, so **nothing anchors the place**, and the model invents one.
 
-**Consequence:** full-page panels are composed knowing they will be cropped. Load-bearing content —
-figures, hands, the vanishing point — goes **centre and right**; the left carries expendable mass
-such as a shadow field or a wall. The crop is then chosen at assembly rather than defaulting to centre.
+On page 38 this produced a close-up of Zakarbaal in a **narrow stone alley with a doorway**, and a
+medium of Yatonbaal with **palm trees, a multi-storey town and background crowds** — both in a
+scene whose location has been a bare open sand lane since page 13. Neither prompt had described
+the lane; both had assumed the chained sheet would carry it.
+
+**Consequence:** in any panel chained to a character, the location is described **in the prompt,
+at the same specificity garments get** (rule 9) — *"a long open lane of pale bare sand, a low
+flat-topped stone wall running away into the distance, tall plain wooden spinning posts in a
+receding row with rope strung between them, open bright sky, flat empty sand from edge to edge"*.
+
+Write what the place **contains**. Both corrected panels came back right first pass.
+
+**Related artifact:** one rejected panel also drew **its own internal vertical division**, as
+though generating a two-panel layout. If an image comes back with an unexplained hard edge across
+it, regenerate — do not crop around it.
 
 ---
 
