@@ -24,6 +24,19 @@ print and black-and-white specifics.
 | 180-degree rule | Enforced within a scene. A deliberate break marks a betrayal or a reversal, and is logged in the page plan | `PROPOSED` |
 | Silence | At least one wordless panel per page, and at least one fully wordless page per chapter | `PROPOSED` |
 
+## Standing QC items
+
+**Scan every panel for stray text before assembly.** The generator writes labels and sound effects
+into the artwork unprompted. Two instances in chapter 1: *"LAYING CART"* hand-lettered on a cart
+(p. 32) and katakana SFX ギュッ / ザッ drawn onto a rope (p. 41), on a page the script requires to be
+wordless. This is systematic, not a one-off.
+
+**A double-page spread must occupy one opening.** Under right-to-left binding the reader takes the
+right page of an opening first, so openings pair as `(3|2)`, `(5|4)`, `(7|6)`. A spread is therefore
+only possible on **{even, odd+1}** — {2,3}, {4,5}, {6,7} and so on. A spread specified across
+`{odd, even}` is split across two openings and cannot work. Chapter 1's page plan specified 5–6 and
+the error survived into the built pages; see `manga/chapter-01/read-through-01.md`.
+
 ## Readability checklist — applied per page
 
 - [ ] Reading order unambiguous right-to-left without effort

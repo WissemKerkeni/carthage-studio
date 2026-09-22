@@ -90,6 +90,18 @@ every reveal must land on the **first panel of an even page**. Reveals in this c
 | Pages with no background | 0 | — |
 | Consecutive same-size panels, max | 3 (p. 32) | At the limit, intentionally — it reads as duration |
 
+## Defects found in read-through 01 — `OPEN`
+
+See `read-through-01.md`.
+
+1. **The 5–6 spread is invalid.** Pages 5 and 6 are never seen together; openings pair as `(5|4)` and
+   `(7|6)`. A spread needs **{even, odd+1}**. Recommended fix: move it to **6–7** and give p. 5 its
+   own content. `BLOCKING`.
+2. **p. 41 carries generator-drawn katakana SFX** on a page the script requires to be wordless.
+   `BLOCKING`.
+3. **p. 13 is marked "Location reveal" but is an odd/left page**, against this file's own rule that
+   reveals land on even pages. Survives because it is a full page; the plan should say which. `MINOR`.
+
 ## Risk notes
 
 1. **Pages 30–33 are the chapter's gamble.** Four wordless pages of a man watching people work. If
