@@ -134,6 +134,27 @@ Asked repeatedly for a strict centred one-point perspective, the model drifted t
 three-quarter and diagonal views. Camera position, eye height and vanishing-point placement must
 be stated as instructions, and even then are verified on every establishing shot.
 
+### 10. One reference slot anchors the character OR the location. Never both.
+
+The MCP server passes **one** image per call. Chaining a character sheet anchors the person — and
+the sheets have neutral backgrounds, so **nothing anchors the place**, and the model invents one.
+
+On page 38 this produced a close-up of Zakarbaal in a **narrow stone alley with a doorway**, and a
+medium of Yatonbaal with **palm trees, a multi-storey town and background crowds** — both in a
+scene whose location has been a bare open sand lane since page 13. Neither prompt had described
+the lane; both had assumed the chained sheet would carry it.
+
+**Consequence:** in any panel chained to a character, the location is described **in the prompt,
+at the same specificity garments get** (rule 9) — *"a long open lane of pale bare sand, a low
+flat-topped stone wall running away into the distance, tall plain wooden spinning posts in a
+receding row with rope strung between them, open bright sky, flat empty sand from edge to edge"*.
+
+Write what the place **contains**. Both corrected panels came back right first pass.
+
+**Related artifact:** one rejected panel also drew **its own internal vertical division**, as
+though generating a two-panel layout. If an image comes back with an unexplained hard edge across
+it, regenerate — do not crop around it.
+
 ### 9. "Japanese" in the style block can drift the SETTING to Japan.
 
 **The worst failure in the project so far.** A wide shot generated *without* a chained character

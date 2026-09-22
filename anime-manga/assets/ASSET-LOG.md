@@ -155,6 +155,7 @@ entirely at ease, and nobody on the quay looking at them.
 | **035** | 2 | `manga/chapter-01/pages/page-035-v001.png` | v001 | 2026-09-22 | **approved** |
 | **036** | 3 | `manga/chapter-01/pages/page-036-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 | **037** | 3 | `manga/chapter-01/pages/page-037-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
+| **038** | 5 | `manga/chapter-01/pages/page-038-v001.png` | v001 | 2026-09-22 | **approved**, placeholder lettering |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -243,6 +244,22 @@ the one-reference-per-call limit biting in a two-character panel. **v003** edite
 beard and greying temples onto him, and they took cleanly, **confirming rule 7 inside a complex
 two-figure scene**: chain the distinctive character, edit the other's hair and beard in.
 
+### Page 38 — the reveal, and rule 10
+
+Scene 3 ends. The canon reveal lands on the first panel after the page turn, and the exit is three
+narrow verticals read right to left with the figure shrinking across them — near, mid, a mark on
+the sand. **The best sequence in the chapter so far**, and all three came back first pass.
+
+**Panels 1 and 2 were rejected on location continuity.** Both were chained from character sheets,
+and both invented a setting: a narrow stone alley for one, palm trees and a multi-storey town for
+the other, in a scene whose location has been a bare sand lane since page 13. One also drew **its
+own internal vertical seam** across the image.
+
+**Cause: the one-reference-per-call limit.** Chaining a character anchors the person, and the
+sheets have neutral backgrounds, so nothing anchors the place. Recorded as prompting rule 10 —
+in any panel chained to a character, describe the location in the prompt at the same specificity
+garments get. Both corrected first pass.
+
 ## Panel assets
 
-6 pages of 42 assembled. 114 panels remain.
+7 pages of 42 assembled. 109 panels remain.
