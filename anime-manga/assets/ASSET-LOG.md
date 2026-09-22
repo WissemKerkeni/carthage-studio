@@ -178,6 +178,14 @@ entirely at ease, and nobody on the quay looking at them.
 | **010** | 4 | `manga/chapter-01/pages/page-010-v001.png` | v001 | 2026-09-22 | **approved** |
 | **011** | 3 | `manga/chapter-01/pages/page-011-v001.png` | v001 | 2026-09-22 | **approved** |
 | **012** | 2 | `manga/chapter-01/pages/page-012-v001.png` | v001 | 2026-09-22 | **approved** |
+| **022** | 4 | `manga/chapter-01/pages/page-022-v001.png` | v001 | 2026-09-22 | **approved** |
+| **023** | 3 | `manga/chapter-01/pages/page-023-v001.png` | v001 | 2026-09-22 | **approved** |
+| **024** | 3 | `manga/chapter-01/pages/page-024-v001.png` | v001 | 2026-09-22 | **approved** |
+| **025** | 2 | `manga/chapter-01/pages/page-025-v001.png` | v001 | 2026-09-22 | **approved** |
+| **026** | 3 | `manga/chapter-01/pages/page-026-v001.png` | v001 | 2026-09-22 | **approved** |
+| **027** | 5 | `manga/chapter-01/pages/page-027-v001.png` | v001 | 2026-09-22 | **approved** |
+| **028** | 4 | `manga/chapter-01/pages/page-028-v001.png` | v001 | 2026-09-22 | **approved** |
+| **029** | 3 | `manga/chapter-01/pages/page-029-v001.png` | v001 | 2026-09-22 | **approved** |
 
 **The first finished page of the series.** 2150 x 3035 px, B5 tankobon at 600 dpi, single bordered
 full-page panel inside a 15 mm inset. Spec: `manga/chapter-01/panels/C01-P13-01.md`.
@@ -340,6 +348,25 @@ unbothered by it — which is what *"everybody who lived there had stopped notic
 officials at their own table with their own tablets and a guard behind them, and not one Tyrian in
 frame looking at them.
 
+### Pages 22–29 — the approach
+
+27 panels, 8 pages. Scene 3's first half.
+
+**Pages 27–28 are the chapter's method in miniature.** The storyboard's instruction is four words —
+*"Eyes move; hands do not"* — and the pages are built as strict alternation, a face then the hands
+under it, tightening from medium to extreme close-up. The wide at the foot of p. 27 confirms it:
+not one person in the lane has straightened up. A priest walks into a working lane alone and
+nobody can afford to look up.
+
+**Page 29 is only the gesture.** No face, no words: the sandals stopping beside spilled tar, a soft
+uncallused hand gathering the hem clear, the tar itself. `CHR-33`'s wardrobe note says *"He lifts
+the hem over the tar. That gesture is the character."* The page takes that literally.
+
+**One hard API failure** — an extreme close-up of the girl's eyes alone returned *No valid content
+in response*. Reframed as a tight close-up of her whole face with the eyes turned, which is the
+same beat and reads better, since the unmoved expression around the moved eyes is the point.
+First outright generation failure in the project.
+
 ## Panel assets
 
-**29 of 42 pages assembled. 43 panels remain across pages 22–34.**
+**37 of 42 pages assembled. 16 panels remain, all in pages 30–34.**
